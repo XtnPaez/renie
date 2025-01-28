@@ -63,3 +63,13 @@ IP de la  del servidor local
 usuario
 passwpord
 5432
+
+## Restaurar el .sql
+Ingresar a la consola de windows CMD
+
+Ir hasta la carpeta donde esté el archivo (Ej. cd C:\mapa)
+
+psql -U guest -h localhost -p 5432 -d mapa -f mapa.sql
+
+Chequear el restore
+
